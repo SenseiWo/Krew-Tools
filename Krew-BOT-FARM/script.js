@@ -15,10 +15,3 @@ console.log (event.which); });
 var evt = new KeyboardEvent('keydown', {'keyCode':37, 'which':37}); 
 document.dispatchEvent (evt); 
 }
-/* 
-
-
-document.addEventListener ('keydown', function (event){ 
-console.log (event.which); }); 
-var evt = new KeyboardEvent('keydown', {'keyCode':39, 'which':39}); 
-document.dispatchEvent (evt);  */
