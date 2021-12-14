@@ -1,2 +1,10 @@
 # Krew-Tools
-Tools &amp; Cheats for krew.io
+Tools & Cheats for krew.io
+
+# How to run
+1. go to krew.io  <br>
+2. click 'play as guest' <br>
+3. press f12 and paste one of the krew-tools scripts 
+
+# Contact
+Contact Nitrovesper#8395 on Discord if you have any questions, comments, or concerns.
