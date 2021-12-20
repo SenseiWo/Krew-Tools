@@ -1,0 +1,4 @@
+- Node.js
+- npm i selenium-webdriver
+- npm i chromedriver
+- Chrome
