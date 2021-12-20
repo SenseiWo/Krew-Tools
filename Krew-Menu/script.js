@@ -1,6 +1,7 @@
 function sleep(milliseconds) { const date = Date.now();
 let currentDate = null; do { currentDate = Date.now(); } 
 while (currentDate - date < milliseconds); }
+function repeat(func, times) { func(); times && --times && repeat(func, times); }
 let divHTH = document.createElement('divHTH'); divHTH.id = 'HTML_txt_header';
 divHTH.innerHTML = '<center><h1>Functions</h1></center>';
 document.getElementById("game-settings-modal").appendChild(divHTH);
@@ -112,80 +113,8 @@ document.getElementById("close-game-settings-modal-button").click(); document.ge
 function Jump()   { var e = new Event('keydown'); e.which = e.keyCode = 32; document.dispatchEvent(e);
 document.getElementById("close-game-settings-modal-button").click(); document.getElementById("close-help-button").click(); document.getElementById("close-quests-button").click(); }
 function FireRate() { document.getElementById("close-game-settings-modal-button").click(); document.getElementById("close-help-button").click(); document.getElementById("close-quests-button").click();	
-var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e); }
+repeat(function () { var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 53; document.dispatchEvent(e); }, 50); }
 function Distance() { document.getElementById("close-game-settings-modal-button").click(); document.getElementById("close-help-button").click(); document.getElementById("close-quests-button").click();	
-var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e); }
-function Damage() { document.getElementById("close-game-settings-modal-button").click(); document.getElementById("close-help-button").click(); document.getElementById("close-quests-button").click();	
-var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e);
-var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e); }
+repeat(function () { var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 54; document.dispatchEvent(e); }, 50); }
+function Damage() { document.getElementById("close-game-settings-modal-button").click(); document.getElementById("close-help-button").click(); document.getElementById("close-quests-button").click();	            
+repeat(function () { var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e); var e = new Event('keydown'); e.which = e.keyCode = 55; document.dispatchEvent(e); }, 50); }
