@@ -11,6 +11,7 @@ if(document.getElementById("abandon-ship-button")){ document.getElementById("aba
 if(document.getElementById("exit-island-button")){ document.getElementById("exit-island-button").click(); }
 if(document.getElementById("cancel-exit-button")){ document.getElementById("cancel-exit-button").click(); }
 if(document.getElementById("close-help-button")){ document.getElementById("close-help-button").click(); }
+if(document.getElementById("play-again-button")){ document.getElementById("play-again-button").click(); }
 if(document.getElementById("close-game-settings-modal-button")){ 
 document.getElementById("close-game-settings-modal-button").click(); }
 if(document.getElementById("minimap-container")){
