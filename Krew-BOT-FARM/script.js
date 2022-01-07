@@ -2,7 +2,7 @@ function Start_Bot_JS() { document.addEventListener ('keydown', function (event)
 console.log (event.which); }); 
 var evt = new KeyboardEvent('keydown', {'keyCode':37, 'which':37});
 document.dispatchEvent (evt); 
-setInterval(() => { console.log("function_checker");
+setInterval(() => { console.clear(); console.log("function_checker");
 document.addEventListener ('keydown', function (event){ 
 console.log (event.which); }); 
 var evt = new KeyboardEvent('keydown', {'keyCode':37, 'which':37});
