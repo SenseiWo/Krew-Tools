@@ -29,6 +29,8 @@ document.getElementById("minimap-container").remove();
 document.getElementById("toggle-invite-link-button").remove();
 document.getElementById("fps-wrapper").remove();
 document.getElementById("ping-wrapper").remove(); }
+setInterval(() => { document.exitPointerLock = document.exitPointerLock ||
+document.mozExitPointerLock; document.exitPointerLock(); }, 100); 
 let div = document.createElement('div'); 
 div.id = 'Button';
 div.innerHTML = '<center><button onclick="Start_Bot_JS()">Start-Bot</button></center>';
