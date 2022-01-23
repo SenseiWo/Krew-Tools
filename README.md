@@ -7,4 +7,4 @@ Tools & Cheats for krew.io
 3. press f12 and paste one of the krew-tools scripts 
 
 # Contact
-Contact Nitrovesper#8395 on Discord if you have any questions, comments, or concerns.
+discord died
